@@ -53,3 +53,15 @@ h2 + button {
 footer > a {
   color: a8dadc;
 }
+
+/*Attribute Selector
+    select all elements where attribute 
+    equals something*/
+
+input[type = ["password"] {
+    color: brown;
+}
+
+a[href *="google"] {
+    color: black;
+}

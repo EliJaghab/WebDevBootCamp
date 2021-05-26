@@ -1,5 +1,8 @@
 h2 {
   color: indigo;
+  text-align: center;
+  font-weight: normal;
+  text-decoration: blue underline wavy;
 }
 
 button {
@@ -9,4 +12,7 @@ button {
 
 p {
   background: yellow;
+  text-align: left;
+  line-height: 2;
+  letter-spacing: 5px;
 }

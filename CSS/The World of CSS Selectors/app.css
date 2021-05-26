@@ -32,3 +32,24 @@ span {
 .post a {
   color: red;
 }
+
+/*Adjacent Selector
+    selects only the paragraphs that 
+    are immediately preceded by a tag*/
+
+input + button {
+  background-color: pink;
+}
+
+h2 + button {
+  font-size: 20px;
+  background-color: slategrey;
+}
+
+/*Direct Child
+    select only the element 
+    that is direct child of an element*/
+
+footer > a {
+  color: a8dadc;
+}

@@ -28,3 +28,7 @@ span {
   color: #f1faee;
   font-size: 16px;
 }
+
+.post a {
+  color: red;
+}

@@ -102,3 +102,17 @@ p::first-line {
 ::selection {
   background-color: pink;
 }
+
+/* Cascading Property of CSS:
+the last tag for an element takes precedence 
+when there are conflicting properties */
+
+/* Specificity:  the more specific a selector
+is in css, will trump the non-less specific properties
+
+in this order of specific:
+-1. !important
+0. Inline styles
+1. ID
+2. CLASS
+3. ELEMENT */

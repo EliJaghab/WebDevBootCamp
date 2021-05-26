@@ -87,5 +87,18 @@ a:hover {
 }
 
 .post.post:nth-of-type(2n) {
-  background-color: blue;
+  background-color: coral;
+}
+
+/* Psuedo Elements */
+h2::first-letter {
+  font-size: 80px;
+}
+
+p::first-line {
+  color: purple;
+}
+
+::selection {
+  background-color: pink;
 }

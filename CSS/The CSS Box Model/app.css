@@ -7,3 +7,21 @@ h1 {
   background-color: orangered;
   width: 120px;
 }
+
+#one {
+  background-color: blue;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
+  border-left-color: white;
+}
+#two {
+  background-color: yellowgreen;
+  border: medium dashed green;
+  box-sizing: border-box;
+  border-radius: 5%;
+}
+#three {
+  background-color: greenyellow;
+}

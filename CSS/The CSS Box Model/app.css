@@ -6,6 +6,8 @@ div {
 h1 {
   background-color: orangered;
   width: 120px;
+  padding-left: 130px;
+  padding-top: 120px;
 }
 
 #one {
@@ -15,6 +17,7 @@ h1 {
   border-style: solid;
   box-sizing: border-box;
   border-left-color: white;
+  padding: 10px 20px;
 }
 #two {
   background-color: yellowgreen;
